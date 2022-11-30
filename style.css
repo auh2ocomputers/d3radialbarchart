@@ -1,0 +1,77 @@
+body {
+  font: 7px sans-serif;
+  padding:75px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+/* hide the y axis */
+.axis .tick line,
+.axis path {
+  display: none;
+}
+
+.category-circle {
+  fill: #C8102E;
+}
+
+.question-circle {
+  fill: url(#gradient-questions);
+}
+
+.chart-area-circle {
+  stroke: #fff;
+  stroke-width: 3px;
+  fill: url(#gradient-chart-area);
+}
+
+.center-circle {
+  fill: #fff;
+}
+
+.bars {
+  fill: url(#gradient-bars);
+}
+
+.gridlines {
+  fill: none;
+  stroke: #fff;
+}
+
+.minor {
+  stroke-width: 1px
+}
+
+.major {
+  stroke-width: 6px
+}
+
+.category-label-text {
+  font-weight: bold;
+  font-size: 14px;
+  fill: #fff;
+}
+
+.question-label-text {
+  font-size: 7px;
+  font-weight: bold;
+  fill: gray;
+}
+
+.question-labels {
+  text-anchor: middle;
+  font-weight: bold;
+}
+
+.category-labels {
+  text-anchor: middle;
+  font-weight: bold;
+  font-size: 14px;
+  fill: #fff;
+}
